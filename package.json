@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "ip": "^1.1.5"
+    "ip": "^1.1.5",
+    "network-interfaces": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
