@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     ipVersion: 4     // integer (4 or 6): only acknowledge addresses of this IP address family (undefined: both)
   };
   var networkInterfaces = os.hostname();
-  const ip = ni.toIp('tuns1', options);
+  const ip = ni.getInterfaces(options);
   res.send(ip)
 })
 
